@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>clockSample</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+
+  <body>
+<div class="slide" id="slideclock">
+
+<button>slide Clock</button>
+  
+  <div class="video-container">
+  
+    <button id="vidpause">Pause</button>
+    <video playsinline autoplay loop id="bgvid">
+    <source src="a.mp4" type="video/mp4">
+    </video>
+
+<!--   <video class="video_position" class="video_hover" src="a.mp4" preload></video> -->
+ <!--  <video class="video_position" src="b.mp4" preload></video>
+  <video class="video_position" src="c.m4v" preload></video>
+  <video class="video_position" src="d.m4v" preload></video>
+  <video class="video_position" src="e.m4v" preload></video>
+  <video class="video_position" src="f.m4v" preload></video> -->
+  </div>
+  
+  <div>
+  <div id="spot1" class="spot">1</div>
+  <div id="spot2" class="spot">2</div>
+  <div id="spot3" class="spot">3</div>
+  <div id="spot4" class="spot">4</div>
+  <div id="spot5" class="spot">5</div>
+  <div id="spot6" class="spot">6</div>
+  </div>
+
+</div>
+  <a class="link link--takiri" href="#">Takiri <span>Where do you want to be?</span></a>
+
+
+  <script src="scripts.js"></script>
+  </body>
+
+
+</html>

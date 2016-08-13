@@ -1,0 +1,58 @@
+body{
+	width: 1280px;
+	/*overflow:hidden;*/
+}
+
+button {
+    position: fixed;
+}
+.spots{
+	/*font-size: 40px;*/
+background-color: black;
+}
+
+
+/*
+.spothover{
+}
+
+
+slide the clock
+.slide {
+  position: relative;
+}
+*/
+
+ #defaultCanvas0{
+    width: 1280;
+    margin-top: -65px;
+    margin-left: 790px;
+    position: fixed;
+}
+/*background video fullscreen
+/*video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(polina.jpg) no-repeat;*/
+/*    background-size: cover; 
+}*/
+
+video.video_position{
+    position: fixed;
+    width: 1280;
+    height: 720;
+    z-index: -100;
+}
+
+
+
